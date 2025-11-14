@@ -1,5 +1,6 @@
 # Informační systém
 ## Popis
-## Cíl systému a cílová skupina
+## Cíl systému
+### Cílová skupina
 ## Základní funkce(role a oprávnění)
 ## Spravovaná data
