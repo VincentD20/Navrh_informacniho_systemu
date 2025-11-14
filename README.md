@@ -1,2 +1,5 @@
-# Navrh_informacniho_systemu
-Můj návrh informačního systému na téma: 
+#Informační systém
+##Popis
+##Cíl systému a cílová skupina
+##Základní funkce(role a oprávnění)
+##Spravovaná data
