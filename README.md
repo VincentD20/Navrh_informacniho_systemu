@@ -3,7 +3,7 @@
 ---
 
 ## 📝 Popis
-Jednoduchý osobní informační systém pro evidenci filmů, sledování toho, co uživatel viděl, plánuje shlédnout a jak filmy hodnotil.
+Jednoduchý osobní informační systém pro evidenci filmů, sledování toho, co uživatel viděl, plánuje shlédnout a jeho hodnocení.
 
 ---
 
@@ -24,9 +24,9 @@ Systém řeší:
 
 ## 🔐 Základní funkce (Role a oprávnění)
 
-### 👤 Uživatel (jediná role – osobní systém)
-- Přidávat filmy do své databáze  
-- Editovat informace o filmech (název, rok, žánr, popis…)  
+### 👤 Uživatel
+- Přidávat filmy
+- Editovat informace o filmech
 - Označit film jako:
   - Viděný  
   - Chci vidět  
@@ -37,8 +37,7 @@ Systém řeší:
 - Filtrovat filmy (viděné / neviděné / oblíbené)  
 - Zobrazit statistiky:
   - Počet viděných filmů  
-  - Nejoblíbenější žánry  
-  - Průměrné hodnocení  
+  - Nejoblíbenější žánry
 
 ---
 
@@ -52,7 +51,7 @@ Systém řeší:
 - Délka filmu  
 - Krátký popis  
 - Stav (viděno / chci vidět / neviděno)  
-- Osobní hodnocení  
+- Osobní hodnocení (0-100%)
 - Poznámka / recenze  
 
 ### ⭐ Uživatelovy seznamy
@@ -63,5 +62,4 @@ Systém řeší:
 ### 📊 Statistiky (odvozená data)
 - Počet filmů celkem  
 - Počet filmů viděných  
-- Průměrné hodnocení uživatele  
 - Nejčastější žánr  
