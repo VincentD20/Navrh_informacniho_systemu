@@ -1,5 +1,6 @@
-
 # 🎬 Informační systém pro sledování a evidenci filmů
+
+---
 
 ## 📝 Popis
 Jednoduchý osobní informační systém pro evidenci filmů, sledování toho, co uživatel viděl, plánuje shlédnout a jak filmy hodnotil.
