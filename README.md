@@ -1,65 +1,103 @@
 # 🎬 Informační systém pro sledování a evidenci filmů
+## 📝 Krátký popis 
 
----
+Webový informační systém pro evidenci filmů, správu uživatelských hodnocení a organizaci filmových seznamů.
 
-## 📝 Popis
-Jednoduchý osobní informační systém pro evidenci filmů, sledování toho, co uživatel viděl, plánuje shlédnout a jeho hodnocení.
 
----
+ 
+## 🎯 Cíl systému a cílová skupina 
+- 
 
-## 🎯 Cíl systému a cílová skupina
-Systém je určen pro:
-- **Jednotlivé uživatele**, kteří chtějí mít přehled o svých filmech  
-- Filmové nadšence, kteří chtějí evidovat hodnocení a doporučení  
+** Hlavní cíl**: vytvořit přehledný filmový katalog, který umožní uživatelům evidovat, co viděli, co se chystají vidět, a sdílet hodnocení v rámci platformy. 
 
-**Hlavní cíl**: umožnit uživateli organizovat svůj filmový archiv, sledovat historii sledování, tvořit seznamy oblíbených filmů a plánovat, na co se chce podívat.
 
-Systém řeší:
-- Nepřehledné seznamy filmů v poznámkách či na papíře  
-- Zapomínání, co už člověk viděl  
-- Obtížné hledání osobních hodnocení  
-- Chybějící prostor pro vlastní filmové poznámky a doporučení  
+Systém řeší: 
 
----
+- Nepřehledné seznamy filmů v osobních poznámkách   
+- Ztrácení přehledu o zhlédnutých filmech   
+- Nekonzistentní data o filmech   
+- Neexistenci strukturovaného hodnocení a recenzí   
 
-## 🔐 Základní funkce (Role a oprávnění)
+ 
 
-### 👤 Uživatel
-- Přidávat filmy
-- Editovat informace o filmech
-- Označit film jako:
-  - Viděný  
-  - Chci vidět  
-  - Oblíbený  
-- Přiřadit vlastní hodnocení  
-- Přidat osobní poznámky nebo krátkou recenzi  
-- Vyhledávat filmy podle názvu, žánru nebo roku  
-- Filtrovat filmy (viděné / neviděné / oblíbené)  
-- Zobrazit statistiky:
-  - Počet viděných filmů  
-  - Nejoblíbenější žánry
+ 
 
----
+## 🔐 Základní funkce (Role a oprávnění) 
+### 👤 1. Uživatel 
 
-## 🗂️ Spravovaná data
+- Prohlížet seznam filmů
+- Přidávat filmy do osobních seznamů (chci vidět / viděné / oblíbené)   
+- Hodnotit filmy a psát krátké recenze   
+- Upravit svůj profil 
+- Vyhledávat filmy podle názvu, žánru nebo roku
 
-### 🎞️ Filmy
-- Název  
-- Rok vydání  
-- Žánr / více žánrů  
-- Režisér  
-- Délka filmu  
-- Krátký popis  
-- Stav (viděno / chci vidět / neviděno)  
-- Osobní hodnocení (0-100%)
-- Poznámka / recenze  
 
-### ⭐ Uživatelovy seznamy
-- Oblíbené filmy  
-- Filmy k shlédnutí  
-- Viděné filmy  
 
-### 📊 Statistiky (odvozená data)
-- Počet filmů celkem  
-- Počet filmů viděných  
-- Nejčastější žánr  
+
+
+### 🛠️ 2. Moderátor 
+
+Moderátor má všechny funkce uživatele + navíc: 
+
+- Kontrolovat a schvalovat návrhy na úpravu filmových informací   
+- Opravovat nepřesné nebo chybné údaje u filmů   
+- Spravovat nevhodné recenze (skrýt / smazat)   
+- Spravovat žánry a filmové štítky   
+
+ 
+
+ 
+
+### 🛡️ 3. Administrátor (Admin) 
+
+Administrátor má plná oprávnění: 
+
+- Vytvářet, upravovat a mazat uživatele   
+- Přiřazovat a odebírat role (Uživatel / Moderátor / Admin)   
+- Přidávat, upravovat a mazat filmy   
+- Spravovat systémová nastavení   
+- Zobrazovat pokročilé statistiky o aktivitě uživatelů a obsahu   
+
+ 
+
+ 
+
+## 🗂️ Spravovaná data 
+### 🎞️ Filmy 
+
+- Název   
+- Rok vydání
+- Žánry   
+- Režisér   
+- Délka filmu   
+- Krátký popis   
+- Stav pro uživatele (viděno / chci vidět / neviděno)   
+- Průměrné hodnocení   
+- Uživatelovy recenze   
+
+ 
+
+### 👥 Uživatelé 
+
+- Jméno   
+- E-mail   
+- Role (Uživatel / Moderátor / Admin)   
+- Seznam oblíbených filmů   
+- Historie hodnocení   
+
+ 
+
+### ⭐ Uživatelské akce 
+
+- Hodnocení filmu   
+- Recenze   
+- Osobní filmové seznamy   
+
+ 
+
+### 📊 Statistiky (odvozená data) 
+
+- Počet registrovaných uživatelů   
+- Počet filmů v databázi   
+- Nejlépe hodnocené filmy   
+- Nejaktivnější uživatelé   
