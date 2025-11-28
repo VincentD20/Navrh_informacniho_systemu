@@ -7,6 +7,7 @@ Webový informační systém pro evidenci filmů, správu uživatelských hodnoc
 ## 🎯 Cíl systému a cílová skupina 
 
 **Cílová skupina:** Pro všechny co chcou mít svůj watch list pod kontrolou.
+
 **Hlavní cíl:** vytvořit přehledný filmový katalog, který umožní uživatelům evidovat, co viděli, co se chystají vidět, a sdílet hodnocení v rámci platformy. 
 #### Systém řeší:
 
