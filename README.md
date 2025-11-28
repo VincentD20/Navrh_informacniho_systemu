@@ -1,4 +1,4 @@
-# 🎬 Informační systém pro sledování a evidenci filmů
+# 🎬 Informační systém pro evidenci filmů **Filmdex**
 ## 📝 Krátký popis 
 Webový informační systém pro evidenci filmů, správu uživatelských hodnocení a organizaci filmových seznamů.
 
@@ -6,7 +6,7 @@ Webový informační systém pro evidenci filmů, správu uživatelských hodnoc
  
 ## 🎯 Cíl systému a cílová skupina 
 
-Hlavní cíl: vytvořit přehledný filmový katalog, který umožní uživatelům evidovat, co viděli, co se chystají vidět, a sdílet hodnocení v rámci platformy. 
+**Hlavní cíl:** vytvořit přehledný filmový katalog, který umožní uživatelům evidovat, co viděli, co se chystají vidět, a sdílet hodnocení v rámci platformy. 
 
 
 
@@ -21,7 +21,6 @@ Systém řeší:
 
 ## 🔐 Základní funkce (Role a oprávnění) 
 ### 👤 1. Uživatel 
-
 - Prohlížet seznam filmů
 - Přidávat filmy do osobních seznamů (chci vidět / viděné / oblíbené)   
 - Hodnotit filmy a psát krátké recenze   
