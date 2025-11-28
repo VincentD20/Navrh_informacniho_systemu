@@ -1,4 +1,4 @@
-# 🎬 Informační systém pro evidenci filmů **Filmdex**
+# 🎬 Informační systém pro evidenci filmů - **Filmdex**
 ## 📝 Krátký popis 
 Webový informační systém pro evidenci filmů, správu uživatelských hodnocení a organizaci filmových seznamů.
 
