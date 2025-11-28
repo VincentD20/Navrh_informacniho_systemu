@@ -10,7 +10,7 @@ Webový informační systém pro evidenci filmů, správu uživatelských hodnoc
 
 
 
-Systém řeší: 
+#### Systém řeší:
 
 - Nepřehledné seznamy filmů v osobních poznámkách   
 - Ztrácení přehledu o zhlédnutých filmech   
@@ -31,7 +31,7 @@ Systém řeší:
 
 ### 🛠️ 2. Moderátor 
 
-Moderátor má všechny funkce uživatele + navíc: 
+#### Moderátor má všechny funkce uživatele + navíc: 
 
 - Kontrolovat a schvalovat návrhy na úpravu filmových informací   
 - Opravovat nepřesné nebo chybné údaje u filmů   
@@ -42,7 +42,7 @@ Moderátor má všechny funkce uživatele + navíc:
 
 ### 🛡️ 3. Administrátor (Admin) 
 
-Administrátor má plná oprávnění: 
+#### Administrátor má plná oprávnění:
 
 - Vytvářet, upravovat a mazat uživatele   
 - Přiřazovat a odebírat role (Uživatel / Moderátor / Admin)   
