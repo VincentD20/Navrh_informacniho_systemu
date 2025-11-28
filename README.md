@@ -1,14 +1,13 @@
 # 🎬 Informační systém pro sledování a evidenci filmů
 ## 📝 Krátký popis 
-
 Webový informační systém pro evidenci filmů, správu uživatelských hodnocení a organizaci filmových seznamů.
 
 
  
 ## 🎯 Cíl systému a cílová skupina 
-- 
 
 Hlavní cíl: vytvořit přehledný filmový katalog, který umožní uživatelům evidovat, co viděli, co se chystají vidět, a sdílet hodnocení v rámci platformy. 
+
 
 
 Systém řeší: 
@@ -17,8 +16,6 @@ Systém řeší:
 - Ztrácení přehledu o zhlédnutých filmech   
 - Nekonzistentní data o filmech   
 - Neexistenci strukturovaného hodnocení a recenzí   
-
- 
 
  
 
@@ -33,8 +30,6 @@ Systém řeší:
 
 
 
-
-
 ### 🛠️ 2. Moderátor 
 
 Moderátor má všechny funkce uživatele + navíc: 
@@ -43,8 +38,6 @@ Moderátor má všechny funkce uživatele + navíc:
 - Opravovat nepřesné nebo chybné údaje u filmů   
 - Spravovat nevhodné recenze (skrýt / smazat)   
 - Spravovat žánry a filmové štítky   
-
- 
 
  
 
@@ -57,8 +50,6 @@ Administrátor má plná oprávnění:
 - Přidávat, upravovat a mazat filmy   
 - Spravovat systémová nastavení   
 - Zobrazovat pokročilé statistiky o aktivitě uživatelů a obsahu   
-
- 
 
  
 
@@ -101,4 +92,4 @@ Administrátor má plná oprávnění:
 - Počet filmů v databázi   
 - Nejlépe hodnocené filmy   
 - Nejaktivnější uživatelé   
-##
+#
